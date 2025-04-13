@@ -16,6 +16,10 @@ body {
     
 }
 
+.main {
+    background-color: bisque;
+}
+
 nav {
     background-color: #333;
     padding: 1%;
@@ -283,4 +287,20 @@ img:hover {
     .header {
         display: none;
     }
+
+    body {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width:600px) {
+    .header {
+        width: 100%;
+    }
+    
+    .footer {
+        width: 100%;
+    }
+
 }
